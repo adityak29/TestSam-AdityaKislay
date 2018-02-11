@@ -58,7 +58,7 @@ namespace FizzBuzz.Controllers
                 //Console.WriteLine(output.getMessage());
             }
 
-            ViewBag.List = output;
+           // ViewBag.List = output;
            // TempData["Message"] =;
             //int idigit = Convert.ToInt32(Request["digit"].ToString());
             return RedirectToAction("Index",output.getResult());

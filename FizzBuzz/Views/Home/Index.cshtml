@@ -19,6 +19,14 @@
         @Html.TextBoxFor(Model => Model.num, new { maxlength = "100" })
         <input type="submit" value="Submit" onclick="" />
     }
+@if (Model != null)
+{
+    foreach (var item in FizzBuzzOutput)
+    {
+
+    }
+}
+foreach
     @if (TempData["Message"] != null)
     {
         var i = TempData["Message"];
